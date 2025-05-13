@@ -1,0 +1,13 @@
+# Ignorar o arquivo .env
+.env
+
+# Ignorar arquivos de dependências do Composer 
+vendor/
+
+# Ignorar pastas de cache e logs
+/storage/*
+/logs/*
+
+# Outros arquivos ou pastas a serem ignorados
+node_modules/
+*.log
